@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class TheRace
+public class ArrayRace
 {
 	private int one;
 	private int two;
@@ -13,7 +13,8 @@ public class TheRace
 	private int turn;
 	private int winner;
 	
-	public TheRace()
+	// C
+	public ArrayRace()
 	{
 	}
 	
