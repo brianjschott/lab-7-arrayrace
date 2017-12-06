@@ -18,6 +18,9 @@ public class ArrayRace
 	{
 	}
 	
+	// Includes all the steps for one player's turn
+	// If no one's count is >= 5, then return true
+	// If someone's count is >= 5, return false
 	public boolean turn()
 	{
 		
