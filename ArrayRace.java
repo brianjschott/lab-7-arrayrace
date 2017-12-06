@@ -13,12 +13,17 @@ public class ArrayRace
 	private int turn; //the value represents whose turn it is
 	private int winner; //the value representing the winner
 	
-	// Assigns track to be an array with values, and initializes all other values
+	// Assigns track to be an array of length 18, filled with 0s
+	// Should also initialize all other values
 	public ArrayRace()
 	{
 	}
 	
-	// Includes all the steps for one player's turn
+	// Includes all the steps for a player's turn
+	// It should, at the very least, move the player whose turn it currently is a random number of spaces,
+	// and then check to see if that spot is occupied. If it is, replace the value and bump the other player back to start
+	// If someone moves past the end of the array, then that player's count should be incremented
+	
 	// If no one's count is >= 5, then return true
 	// If someone's count is >= 5, return false
 	public boolean turn()
@@ -27,7 +32,7 @@ public class ArrayRace
 		return false;
 	}
 	
-	// returns name of winner and a congratulatory message (only call this method if someone's count is >= 5)
+	// returns name of winner and a congratulatory message
 	public String getWinner()
 	{
 		
