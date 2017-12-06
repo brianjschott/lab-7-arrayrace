@@ -39,6 +39,8 @@ public class ArrayRace
 		return "";
   	} 
   	
+	// This is a pre-written function that prints the ArrayRace as a String, which is basically
+	// the array and the count values
   public String toString()
   {
   	return Arrays.toString( track ) + " one count = " + oneCount + " twoCount = " + twoCount;
